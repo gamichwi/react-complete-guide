@@ -20,11 +20,10 @@ function App() {
       title: "New Desk (Wooden)",
       amount: 450,
       date: new Date(2021, 5, 12),
-    }
+    },
   ];
   return (
     <div>
-      <h2>Let's get started!</h2>
       <ExpenseItem
         title={expenses[0].title}
         amount={expenses[0].amount}
